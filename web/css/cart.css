@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container1{
+    margin-top: 50px;
+    width: 100%;
+    display: grid;
+}
+.main{  
+    width: 1170px;
+    text-align: center;
+    margin: auto;
+    display: grid;
+}
+.cart{  
+    width: 1000px;
+    background-color: rgb(204, 217, 247);
+    margin: auto;
+    display: grid;
+}
+.cartcon{
+    height: 500px;
+    /* border: 1px solid  rgb(221, 221, 221);  */
+    width: 900px;
+    margin: auto;
+}
+.sanpham1{
+    line-height: 100px;
+    height: 100px;
+    display: flex;
+    border: 1px solid rgb(221, 221, 221);
+    background-color: white;
+    border-radius: 5px;
+}
+.anh{
+    width: 100px;
+    border-right: 1px solid rgb(221, 221, 221);
+}
+.anhcon{
+    width: 100px;
+    height: 100px;
+    background-position: center center;
+    background-size: cover;
+}
+.anhcon img{
+    width: 100%;
+}
+.ten{
+    width: 400px;
+    border-right: 1px solid rgb(221, 221, 221);
+}
+.ma{
+    width: 180px;
+    border-right: 1px solid rgb(221, 221, 221);
+}
+.gia{
+    width: 100px;
+    border-right: 1px solid rgb(221, 221, 221);
+}
+.soluong{
+    width: 150px;
+    border-right: 1px solid rgb(221, 221, 221);
+}
+.sluongcon{
+    width: 112px;
+    margin: auto;
+}
+.sluongcon ul{
+    display: flex;
+}
+.sluongcon ul li{
+    list-style: none;
+    padding-right: 5px;
+}
+.sluongcon ul li button{
+    width: 33px;
+    height: 26px;
+    background-color: rgb(236, 236, 236); 
+    border: 1px solid rgb(233, 233, 233);
+}
+.sluongcon ul li input{
+    outline: none;
+    width: 33px;
+    height: 26px;
+    border: 1px solid rgb(233, 233, 233);
+    text-align: center;
+}
+.xoa{
+    width: 70px;
+}
+.xoa button{
+    width: 33px;
+    height: 26px;
+    background-color: rgb(236, 236, 236); 
+    border: 1px solid rgb(233, 233, 233);
+}
+br{
+    width: 10px;
+}
+/* MENU sản phẩm */
+.menuSP{
+    width: 1000px;
+    height: 50px;
+    background-color: rgb(17 106 179 / 28%);
+    display: grid
+}
+.menuSPcon{
+    display: flex;
+    height: auto;
+    width: 900px;
+    margin: auto;
+}
+.tenanh{
+    width: 100px;
+    
+}
+.tenSP{
+    width: 400px;
+    
+}
+.soma{
+    width: 180px;
+}
+.giaSP{
+    width: 100px;
+}
+.soluongSP{
+    width: 150px;
+    display: grid
+}
+.xoaSP{
+    width: 70px;
+}
+/* thanh toán */
+.thanhtoan{
+    padding-top: 50px;
+    width: 1000px;
+    margin: auto;
+    
+}
+.tinhtien{
+    text-align: right;
+    /* padding-right: 50px; */
+    line-height: 30px;
+}
+span.dc{
+    color: darkblue;
+    padding-right: 20px;
+}
+input.nhapdc{
+    padding-left: 20px;
+    outline: none;
+    width: 520px;
+    height: 42px;
+    background-color: white;
+    border: 1px solid rgb(255, 145, 67)
+}
+.tien{
+    padding-bottom: 40px;
+}
+.tinh{
+    border-bottom: 1px solid rgb(218, 218, 218);
+}
+.tinh span{
+    padding-left: 20px;
+    color: rgb(235, 38, 38);
+}
+.tinhtien button{
+    outline: none;
+    width: 246px;
+    height: 47px;
+    background-color: #4486e0;
+    border: 1px solid #4486e0;
+    color: white;
+    font-size: 26px;
+    border-radius: 5px;
+}

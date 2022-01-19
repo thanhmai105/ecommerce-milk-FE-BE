@@ -1,0 +1,92 @@
+*{
+    margin:0; 
+    padding:0; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main{
+    padding-top: 50px;
+    width: 100%;
+    height: auto;
+    display: grid;
+    
+}
+.containerll{
+    width: 1170px;
+    height: auto;
+    margin: auto;
+    display: grid;
+}
+.bang{
+    width: 900px;
+    height: 700px;
+    border: 1px solid #eaeaea;
+    display: flex;
+    margin: auto;
+    background-color: #3e75a9;
+    margin-bottom: 50px;
+}
+.trai{
+
+    width: 30%;
+}
+.traicon{
+    text-align: left;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.diachill{
+    padding-bottom: 50px;
+}
+.sdt{
+    padding-bottom: 50px;
+}
+.emailShop{
+    padding-bottom: 50px;
+}
+h2.dd{
+    padding-bottom: 20px;
+}
+.phai{
+    width: 70%;
+}
+.phaicon{
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+    line-height: 75px;
+}
+input.message{
+    height: 219px;
+}
+.phaicon input[type=text], textarea {
+    outline: none;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(220 217 217 / 72%);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    resize: vertical;
+    background-color:#dadada;
+  }
+
+#submit{
+    outline: none;
+    width: 100px;
+    height: 37px;
+    font-size: 17px;
+    border: 1px solid #85eb85;
+    color: #756a35;
+    border-radius: 5px;
+    background-color: #4ee24eb0;
+}
+.bando{
+    margin: auto;
+    width: 900px;
+    border: 1px solid rgb(189 195 251);
+}
+iframe{
+    width: 100%;
+    
+}

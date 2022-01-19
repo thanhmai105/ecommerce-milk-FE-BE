@@ -1,0 +1,367 @@
+
+/* ProductDetail */
+
+*{margin: 0; padding: 0; 
+    /* font-family: 'Roboto', sans-serif; */
+}
+a{
+    text-decoration: none;
+}
+.main1{ 
+    margin-top: 50px;
+    display: grid;
+    width: auto; 
+    text-align: center; 
+    height: auto }
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row1{
+    height: 537px;
+    display: flex;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.left {
+    width: 40%;
+}
+.leftcon{
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+.imgProduct{
+    border: 1px solid rgb(212, 212, 212);
+    height: 400px;
+    background-color: rgba(245, 245, 245, 0.918);
+    overflow: hidden;
+}
+.imgProduct img{
+    width: 100%;
+    height: 400px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.imgProduct img:hover{
+    transform: scale(1.2);
+}
+.listProduct{
+    height: 150px;
+}
+.listProductcon {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.listProductcon ul{
+    display: flex;
+    width: 100%;
+    height: 110px;
+}
+.listProductcon ul li{
+    width: 25%;
+    list-style: none;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.listProduct ul li img{
+    width: 100%;
+    border: 1px solid rgb(212, 212, 212);
+    background-color: rgba(245, 245, 245, 0.918);
+}
+
+/* phai */
+.midle{
+    width: 40%;
+    text-align: left;
+}
+.midlecon{
+    height: 500px;
+    padding-right: 10px;
+    padding-left: 30px;
+}
+.name h3{
+    font-size: 30px;
+    padding-bottom: 18px;
+}
+.ma-ttrang{
+    font-size: 15px;
+}
+span.ma{ padding-right: 10px;}
+span.tinhtrang{
+    color: green;
+}
+.danhgia{ font-size: 13px;}
+.danhgia ul{
+    display: flex;
+}
+.danhgia ul li{
+    list-style: none;
+    padding-right: 5px;
+}
+.danhgia ul li i{
+    color: rgb(241, 241, 10);
+}
+span.sldanhgia{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+li._101{
+    border-left: 1px solid rgb(230, 230, 230);
+}
+.price{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+p.gia{
+    border-bottom: 1px solid #e6e6e6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    color: rgb(245, 106, 26);
+}
+.mota ul li{
+    list-style: none;
+}
+.mota ul li i{
+    padding-right: 5px;
+    color: green;
+}
+.khMai{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+p.p_khmai{
+    border: 3px solid rgba(255, 117, 4, 0.911);
+    font-size: 19px;
+    background-color: greenyellow
+}
+.SLchia{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.slphai{
+    padding-left: 10px;
+}
+.slphai ul{
+    display: flex;
+    list-style: none;
+}
+.slphai ul li{
+    padding-right: 10px;
+}
+.tru{
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(224, 215, 215);
+    background-color: white;
+}
+.so{
+    width: 40px;
+    height: 30px;
+    border: 1px solid rgb(224, 215, 215);
+    background-color: white;
+}
+.cong{
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(224, 215, 215);
+    background-color: white;
+}
+.dathang{
+    display: flex;
+    padding-top: 20px;
+}
+.giohang{
+    padding-right: 30px;
+}
+button.gio{
+    width: 198px;
+    height: 44px;
+    border: 1px solid rgb(40, 27, 223);
+    border-radius: 3px;
+    background-color:  rgb(40, 27, 223);
+    color: white;
+    font-size: 20px;
+}
+button.mua{
+    width: 150px;
+    height: 44px;
+    border: 1px solid rgb(209, 37, 89);
+    border-radius: 3px;
+    background-color: rgb(209, 37, 89);
+    color: white;
+    font-size: 20px;
+}
+
+/* phai */
+.right{
+    width: 27%;
+}
+.chudeCK{
+    border: 1px solid rgb(243 241 241);
+    line-height: 37px;
+}
+.list{
+    border: 1px solid rgb(243 241 241);
+}
+.list ul li{
+    line-height: 36px;
+    text-align: left;
+    list-style: none;
+}
+.list ul li i{
+    color: green;
+    padding-left: 12px;
+    padding-right: 7px;
+    font-size: 20px;
+}
+.hotro{
+    padding-top: 30px;
+}
+.hotrocon{
+    border: 1px solid rgb(243 241 241);
+    line-height: 37px;
+}
+.chudeHT{
+    border: 1px solid rgb(243 241 241);
+}
+.listSDT ul li{
+    line-height: 36px;
+    text-align: left;
+    list-style: none;
+}
+.listSDT ul li i{
+    color: green;
+    padding-left: 12px;
+    padding-right: 7px;
+    font-size: 33px;
+}
+.listSDT ul li a{
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(28, 135, 235);
+}
+/* mota san pham */
+.row2{
+    height: 60px;
+    text-align: left;
+    font-size: 15px;
+}
+.rowcon1{
+    padding-top: 5px;
+    padding-bottom: 5px;   
+}
+.rowcon2{
+    background-color: #f8f9fa!important;
+    display: flex;
+    height: 50px;
+}
+.thongtin{
+    padding-left: 20px;
+    width: 33%;
+    border-right: 1px solid rgb(209, 209, 209);
+}
+.thongtin a{
+    line-height: 50px;
+    color: black;
+}
+.thongtin a:hover{
+    color: blue;
+}
+.video{
+    padding-left: 10px;
+    width: 33%;
+    border-right: 1px solid rgb(209, 209, 209);
+}
+.video a{
+    color: black;
+    line-height: 50px;
+}
+.video a:hover{
+    color: blue;
+    text-decoration: none;
+}
+
+.dgia{
+    padding-left: 10px;
+    width: 33%;
+}
+.dgia a{
+    line-height: 50px;
+    color: black;
+}
+.dgia a:hover{
+    color: blue;
+}
+
+.chitietSP{
+    padding-top: 23px;
+    text-align: left;
+    line-height: 32px;
+}
+.chitietSP p.modau{
+    line-height: 40px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.chitietSP p.mucdam{
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.chitietSP img{
+    display: block; margin-left: auto; margin-right: auto;
+}
+
+p.tenvideo{
+    text-align: left;
+    padding-bottom: 20px;
+    color: rgb(37, 176, 240);
+    font-size: 27px;
+    font-weight: bolder;
+}
+p.tenvideo h1{
+    border-bottom: 3px solid blue;
+}
+.videoten p{
+    padding-top: 10px;
+} 
+span.goi{
+    color: rgb(37, 176, 240);
+}
+.themgio{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.themgio button.thgio{
+    background-color: #fb8836;
+    border: 1px solid #fb8836;
+    border-radius: 5px;
+    width: 245px;
+    height: 50px;
+    line-height: 1px;
+    font-size: 25px;
+    color: white;
+}
+.SLdanhgia{
+    padding-top: 20px;
+    border-top: 1px solid rgb(219, 219, 219);
+}
+.SLdanhgia h2{
+    color: rgba(35, 126, 245, 0.938);
+    font-size: 25px;
+    text-align: left;
+    
+}
+
+input{
+    width: 35px;
+    height: 28px;
+    border: 1px solid rgb(224, 215, 215);
+    background-color: white;
+    text-align: center;
+}

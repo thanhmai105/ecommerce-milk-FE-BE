@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.maingioithieu{
+    width: 100%;
+    display: grid;
+}
+.gioithieu{
+    width: 1170px;
+    margin: auto;
+}
+.gioithieucon{
+    padding-right: 40px;
+    padding-left: 40px;
+    line-height: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.donganh{
+    display: flex;
+}
+.anhlogo{
+    width: 10%;
+    padding-right: 20px;
+}
+.anhlogo img{
+    width: 100%;
+}
+.gthieungan{
+    width: 90%;
+}
+a{
+    text-decoration: none;
+}
+p.chudam{
+    font-weight: bold;
+}
+span.chudo{
+    color: red;
+}
+p.nghieng{
+    font-style: oblique;
+}

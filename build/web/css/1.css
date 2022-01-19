@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container1{
+    width: auto;
+    height: auto;
+    display: grid;
+}
+.container1con{
+    width: 1170px;
+    margin: auto;
+}
+div.gallery {
+  margin: 40px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 300px;
+  height: 450px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 300px;
+  height: 300px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+h4{
+    color: red;
+}
+div,label{
+    margin:0;
+    padding:0;
+}
+#rating{
+    border:none;
+    float:left;
+    margin-left: 60px;
+}
+#rating>input{
+    display:none;
+}/*ẩn input radio - vì chúng ta đã có label là GUI*/
+#rating>label:before{
+    margin:5px;
+    font-size:1.25em;
+    font-family:FontAwesome;
+    display:inline-block;
+    content:"\f005";
+}/*1 ngôi sao; \f005: là mã của fas fas star*/
+#rating>label{
+    color:#ddd;
+    float:right;
+}/*float:right để lật ngược các ngôi sao lại đúng theo thứ tự trong thực tế*/
+/*thêm màu cho sao đã chọn và các ngôi sao phía trước*/
+#rating>input:checked~label,
+#rating:not(:checked)>label:hover, 
+#rating:not(:checked)>label:hover~label{
+    color:#FFD700;
+}
+/* Hover vào các sao phía trước ngôi sao đã chọn*/
+#rating>input:checked+label:hover,
+#rating>input:checked~label:hover,
+#rating>label:hover~input:checked~label,
+#rating>input:checked~label:hover~label{
+    color:#FFED85;
+}
